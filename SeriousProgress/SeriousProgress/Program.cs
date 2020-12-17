@@ -6,7 +6,7 @@ namespace SeriousProgress
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Serious Progress");
+            Console.WriteLine("Welcome to Serious Progress\n");
 
             ConsoleHelper progress = new ConsoleHelper();
 

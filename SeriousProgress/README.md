@@ -29,6 +29,7 @@ Probeer er echter wel voor te zorgen dat je project op het einde compileert. Des
 
 ```text
 Welcome to Serious Progress
+
 ------------------------
 | .................... |
 ------------------------
