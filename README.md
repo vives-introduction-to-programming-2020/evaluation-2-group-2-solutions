@@ -52,5 +52,5 @@ Plaats een ✔️ bij de oefeningen die volledig klaar zijn.
 | --- | --- | :---: |
 | [xxxxxxxxxxxxxxx](./xxxxxxxxxxxxx/README.md) | xxxxxxxxxxxxxxxxxxxxxxxxxxx | `25%` |
 | [xxxxxxxxxxxxxxx](./xxxxxxxxxxxxx/README.md) | xxxxxxxxxxxxxxxxxxxxxxxxxxx | `25%` |
-| [xxxxxxxxxxxxxxx](./xxxxxxxxxxxxx/README.md) | xxxxxxxxxxxxxxxxxxxxxxxxxxx | `25%` |
+| [Serious Progress](./SeriousProgress/README.md) | Genereer een Progress Bar | `25%` |
 | [xxxxxxxxxxxxxxx](./xxxxxxxxxxxxx/README.md) | xxxxxxxxxxxxxxxxxxxxxxxxxxx | `25%` |
