@@ -7,7 +7,7 @@ Zo laat de class toe om het grootste getal te zoeken in een array aan de hand va
 Beide methodes zijn echter nog niet geïmplementeerd. Dat is namelijk jouw taak (zie `View => Task List` in Visual Studio):
 
 * Implementeer de methode `Maximum()` zodat deze in de array van getallen, `numbers`, op zoek gaat naar het grootste getal (negatieve getallen kunnen ook voorkomen). Geef **de index van het grootste getal terug** (niet de waarde zelf). Indien de array geen elementen bevat dien je `-1` terug te geven. Je mag er vanuit gaan dat de array **geen duplicate getallen** bevat.
-* Implementeer de methode `IsSortedAscending()` zodat deze de array van getallen controleerd of deze gesorteerd zijn van klein naar groot. Zorg er wel voor dat de methode eveneens werkt met een array die geen elementen bevat en dan `false` teruggeeft. Je mag er vanuit gaan dat de array **geen duplicate getallen** bevat.
+* Implementeer de methode `IsSortedAscending()` zodat deze de array van getallen controleert of deze gesorteerd zijn van klein naar groot. Zorg er wel voor dat de methode eveneens werkt met een array die geen elementen bevat en dan `false` teruggeeft. Je mag er vanuit gaan dat de array **geen duplicate getallen** bevat.
 
 Je mag de `Main()` methode aanpassen / uitbreiden als je dit nodig vind.
 

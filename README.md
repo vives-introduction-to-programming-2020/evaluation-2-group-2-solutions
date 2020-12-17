@@ -53,4 +53,4 @@ Plaats een ✔️ bij de oefeningen die volledig klaar zijn.
 | [Who Sorted this Out](./WhoSortedThisOut/README.md) | Kijk of een array gesorteerd is | `25%` |
 | [String of Sums](./StringOfSums/README.md) | Parse een string met een som erin | `25%` |
 | [Serious Progress](./SeriousProgress/README.md) | Genereer een Progress Bar | `25%` |
-| [xxxxxxxxxxxxxxx](./xxxxxxxxxxxxx/README.md) | xxxxxxxxxxxxxxxxxxxxxxxxxxx | `25%` |
+| [B-Rail but on Time](./BRailButOnTime/README.md) | ToString voorzien voor een B-Rail Traject | `25%` |
