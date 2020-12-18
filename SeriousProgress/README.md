@@ -10,7 +10,7 @@ Bv:
 ------------------------
 ```
 
-Hierbij wordt de voortgang (progress) weergegeven door hashtags `#` en het resterende gedeelte door puntjes `.`. De totale lengte van de progress bar zelf wordt als argument `maximum` meegegeven terwijl de huidige progress terug te vinden is via `progress`. Je mag er van uit gaan dat `value` en `maximum` steeds geldige positieve waarden bevatten waarbij `value` nooit groter is dan `maximum`.
+Hierbij wordt de voortgang (progress) weergegeven door hashtags `#` en het resterende gedeelte door puntjes `.`. De totale lengte van de progress bar zelf wordt als argument `maximum` meegegeven terwijl de huidige progress terug te vinden is via `progress`. Je mag er van uit gaan dat `progress` en `maximum` steeds geldige positieve waarden bevatten waarbij `progress` nooit groter is dan `maximum`.
 
 Jouw taak (zie `View => Task List` in Visual Studio) bestaat er nu uit om deze methode `GenerateProgressBar()` te implementeren. Een paar specificaties waaraan de methode moet voldoen zijn:
 
