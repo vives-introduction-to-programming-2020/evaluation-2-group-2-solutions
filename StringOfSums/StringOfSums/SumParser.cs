@@ -14,6 +14,8 @@ namespace StringOfSums
             //      Example of text: "142+223"
             //
             //      This method should than return 365
+            //
+            // "text" contains valid value (not empty, with plus sign and two positive integers)
 
             return -1;    // TODO - Change this with the real result
         }
