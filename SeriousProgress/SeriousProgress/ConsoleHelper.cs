@@ -19,8 +19,58 @@ namespace SeriousProgress
             //      progress = 2
             //      maximum = 5
 
+            string output = "";
 
-            return "";      // TODO - Replace this and return the resulting output string
+            //////////////////////////////////
+            /// Option 1 - No extra method ///
+            //////////////////////////////////
+
+            //// First line
+            //for (int i = 0; i < maximum + 4; i++)
+            //{
+            //    output += "-";
+            //}
+            //output += "\n";     // Newline
+
+            //// Progress part
+            //output += "| ";
+            //for (int i = 0; i < progress; i++)
+            //{
+            //    output += "#";
+            //}
+            //for (int i = progress; i < maximum; i++)
+            //{
+            //    output += ".";
+            //}
+            //output += " |\n";
+
+            //// Last line
+            //for (int i = 0; i < maximum + 4; i++)
+            //{
+            //    output += "-";
+            //}
+
+            //////////////////////////////////////////////////
+            /// Option 2 - Nice and DRY with custom method ///
+            //////////////////////////////////////////////////
+
+
+            output += GenerateLine("-", maximum + 4) + "\n";
+            output += "| " + GenerateLine("#", progress) + GenerateLine(".", maximum - progress) + " |\n";
+            output += GenerateLine("-", maximum + 4);
+
+            return output;
+        }
+
+        // Private custom method to generate line of chars
+        private string GenerateLine(string symbol, int count)
+        {
+            string output = "";
+            for (int i = 0; i < count; i++)
+            {
+                output += symbol;
+            }
+            return output;
         }
     }
 }
