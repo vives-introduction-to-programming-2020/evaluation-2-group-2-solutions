@@ -12,7 +12,21 @@ namespace WhoSortedThisOut
             // TODO - If the array is empty, return -1
             // The array "numbers" does not contain duplicate values
 
-            return 0;       // TODO - Change this with the index of maximum
+            if (numbers.Length == 0)
+            {
+                return -1;
+            }
+
+            int iMax = 0;
+            for (int i = 1; i < numbers.Length; i++)
+            {
+                if (numbers[i] > numbers[iMax])
+                {
+                    iMax = i;
+                }
+            }
+
+            return iMax;
         }
 
         public bool IsSortedAscending(int[] numbers)
@@ -21,7 +35,19 @@ namespace WhoSortedThisOut
             // TODO - If "numbers" is empty return false
             // The array "numbers" does not contain duplicate values
 
-            return true;       // TODO - Change this with the real result
+            if (numbers.Length == 0) return false;
+            if (numbers.Length == 1) return true;
+
+            for (int i = 1; i < numbers.Length; i++)
+            {
+                if (numbers[i - 1] > numbers[i])
+                {
+                    return false;
+                }
+            }
+
+            // If we get here its ok
+            return true;
         }
     }
 }
