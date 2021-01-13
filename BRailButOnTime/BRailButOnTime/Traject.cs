@@ -20,6 +20,10 @@ namespace BRailButOnTime
         {
             return to;
         }
+        public override string ToString()
+        {
+            return $"Traject from {from} to {to}";
+        }
 
         private Location from = null;
         private Location to = null;

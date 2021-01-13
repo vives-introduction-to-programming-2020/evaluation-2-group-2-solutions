@@ -22,6 +22,11 @@ namespace BRailButOnTime
             return zipcode;
         }
 
+        public override string ToString()
+        {
+            return $"{name} [{zipcode}]";
+        }
+
         private string name = "";
         private string zipcode = "";
     }
